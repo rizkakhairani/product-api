@@ -35,7 +35,7 @@ $ go run main.go
 | GET    | /products/:id                        | Get product by id         |
 | POST   | /products                            | Add product               |
 | PUT    | /products/:id                        | Edit product by id        |
-| POST   | /products/:id                        | Delete product by id      |
+| DELETE   | /products/:id                        | Delete product by id      |
 | ---    | ---                                  | ---                       |
 | GET    | /products?sort_by=desc(created_at)   | Get list of all products sort by latest product    |
 | GET    | /products?sort_by=asc(price)         | Get list of all products sort by lowest price      |
